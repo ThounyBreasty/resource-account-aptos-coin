@@ -1,0 +1,12 @@
+[package]
+name = "CoinMint"
+version = "0.0.0"
+
+[addresses]
+admin = "b447457ba1b80bf468f3467f28ddd7011e758005a7866b2a674bdb11b18462db"
+# place holder for dev to comment
+coin_mint = "b447457ba1b80bf468f3467f28ddd7011e758005a7866b2a674bdb11b18462db"
+
+[dependencies]
+AptosFramework = { local = "/home/titouanmarchal/ThounyBreasty/Playground/Aptos/aptos-core/aptos-move/framework/aptos-framework" }
+# AptosFramework = {git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'devnet', subdir = 'aptos-move/framework/aptos-framework'}
