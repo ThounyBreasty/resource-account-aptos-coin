@@ -20,6 +20,7 @@ module coin_mint::coin_coin {
         mint_cap: coin::MintCapability<CoinCoin>,
         burn_cap: coin::BurnCapability<CoinCoin>,
     }
+
     struct CoinMintingEvent has drop, store {
         receiver_addr: address,
         amount: u64,
@@ -39,7 +40,7 @@ module coin_mint::coin_coin {
     }
 
     fun init_module(resource_acc: &signer) {
-        let signer_cap = resource_account::retrieve_resource_account_cap(resource_acc, @admin);
+        let signer_cap = resource_account::retrieve_resource_account_cap(resource_acc, @source);
 
         move_to(resource_acc, ModuleData {
             admin_addr: @admin,

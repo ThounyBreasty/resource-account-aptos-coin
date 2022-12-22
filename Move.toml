@@ -3,9 +3,10 @@ name = "CoinMint"
 version = "0.0.0"
 
 [addresses]
-admin = "b447457ba1b80bf468f3467f28ddd7011e758005a7866b2a674bdb11b18462db"
+admin = "014f46dcfb789acaa1fafbba707da3e719cce8ea1c9790e6d398a4e9b2a283ba"
+source = "014f46dcfb789acaa1fafbba707da3e719cce8ea1c9790e6d398a4e9b2a283ba"
 # place holder for dev to comment
-coin_mint = "b447457ba1b80bf468f3467f28ddd7011e758005a7866b2a674bdb11b18462db"
+coin_mint = "014f46dcfb789acaa1fafbba707da3e719cce8ea1c9790e6d398a4e9b2a283ba"
 
 [dependencies]
 AptosFramework = { local = "/home/titouanmarchal/ThounyBreasty/Playground/Aptos/aptos-core/aptos-move/framework/aptos-framework" }
